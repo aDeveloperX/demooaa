@@ -8,6 +8,7 @@ import { ISectionTheme, SectionColours } from "../../theme";
 const styles = StyleSheet.create({
   page: {
     display: "flex",
+    maxWidth: "21cm",
   },
   section: {
     margin: 10,
@@ -20,7 +21,7 @@ const styles = StyleSheet.create({
 export const MyDocument = () => (
   <Document>
     <Page size="A4" style={styles.page}>
-      {[1, 1, 1, 1].map((x) => (
+      {[1, 1, 1, 1, 1].map((x) => (
         <Section
           {...data.section}
           //@ts-ignore

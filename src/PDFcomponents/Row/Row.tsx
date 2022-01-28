@@ -6,31 +6,35 @@ const styles = StyleSheet.create({
   container: {
     display: "flex",
     backgroundColor: Colours.lightGreen,
-    width: 502, // width of the header + 2 coz boarder
+    width: 162, // width of the header + 2 coz boarder
   },
   index: {
     //todo: move this into a config file
-    width: 100,
-    height: 100,
-    border: "1px solid black",
+    width: 40,
+    height: 40,
+    border: "0.2px solid black",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    fontSize: "10px",
   },
   content: {
-    width: 400,
-    border: "1px solid black",
+    width: 140,
+    border: "0.2px solid black",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     paddingLeft: 2,
+    fontSize: "6px",
   },
   rowHeader: {
     padding: "10",
+    width: 160,
     paddingTop: 5,
     paddingBottom: 5,
     textAlign: "center",
-    border: "1px solid black",
+    border: "0.2px solid black",
+    fontSize: "12px",
   },
 });
 
